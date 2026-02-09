@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: dev_db
+    schema: dev        # your Snowflake schema name
+    tables:
+      - name: bookings
+      - name: listings
+      - name: hosts
+    

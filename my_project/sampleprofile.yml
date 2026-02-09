@@ -1,0 +1,14 @@
+''my_project:
+  outputs:
+    dev:
+      account: ***
+      database: DEV_DB
+      password: **
+      role: ACCOUNTADMIN
+      schema: dev
+      threads: 1
+      type: snowflake
+      user: L**
+      warehouse: COMPUTE_WH
+  target: dev
+  ''

@@ -1,0 +1,1 @@
+select * from DEV_DB.DEV.LISTINGS
