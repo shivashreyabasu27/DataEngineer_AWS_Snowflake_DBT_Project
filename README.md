@@ -219,12 +219,6 @@ Track historical changes with timestamp-based snapshots:
 - Valid from/to dates automatically maintained
 - Historical data preserved for point-in-time analysis
 
-### 5. Schema Organization
-Automatic schema separation by layer:
-- Bronze models → `AIRBNB.BRONZE.*`
-- Silver models → `AIRBNB.SILVER.*`
-- Gold models → `AIRBNB.GOLD.*`
-
 ## 📈 Data Quality
 
 ### Testing Strategy
@@ -258,12 +252,6 @@ dbt automatically tracks data lineage, showing:
    - Ephemeral models for intermediate transformations
    - Appropriate clustering keys in Snowflake
 
-## 📚 Additional Resources
-
-- **dbt Documentation**: https://docs.getdbt.com/
-- **Snowflake Documentation**: https://docs.snowflake.com/
-- **dbt Best Practices**: https://docs.getdbt.com/guides/best-practices
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -275,11 +263,6 @@ dbt automatically tracks data lineage, showing:
 ## 📝 License
 
 This project is part of a data engineering portfolio demonstration.
-
-## 👤 Author
-
-Shiva Shreya Basupally
-shreyareddybasu@gmail.com
 
 ## 🐛 Troubleshooting
 
@@ -308,3 +291,9 @@ shreyareddybasu@gmail.com
 - [ ] Add alerting and monitoring
 - [ ] Implement data masking for PII
 - [ ] Add more comprehensive testing suite
+
+
+## 👤 Author
+
+Shiva Shreya Basupally
+shreyareddybasu@gmail.com
