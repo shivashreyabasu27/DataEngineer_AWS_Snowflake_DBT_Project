@@ -1,0 +1,9 @@
+snapshots:
+  - name: dim_hosts
+    relation: ref('hosts') 
+    config:
+      schema: gold
+      database: DEV_DB
+      unique_key: host_id
+      strategy: check
+      check_cols: all

@@ -1,0 +1,9 @@
+snapshots:
+  - name: dim_listings
+    relation: ref('listings') 
+    config:
+      schema: gold
+      database: DEV_DB
+      unique_key: listing_id
+      strategy: check
+      check_cols: all
